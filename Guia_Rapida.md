@@ -15,7 +15,8 @@ git clone git@gitlab.wiedii.co:namespace/project.git
 #### 3. INICIALIZAR UN PROYECTO
 
 | Git  | Git Flow |
-| - | - |
+| ##### Iniciar repositorio
+`git init`| - |
 | - | - |
 | - | - |
 | - | - |
