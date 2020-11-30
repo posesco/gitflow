@@ -15,9 +15,10 @@ git clone git@gitlab.wiedii.co:namespace/project.git
 #### 3. INICIALIZAR UN PROYECTO
 
 | Git  | Git Flow |
-| ##### Iniciar repositorio
-`git init`| - |
 | - | - |
-| - | - |
-| - | - |
-| - | - |
+|**Iniciar repositorio** `git init`|**Iniciar repositorio** `git init flow -d`|
+|**Iniciar rama master** `git commit --allow-empty -m "Initial commit"`|**Integración con repositorio remoto VACÍO** `git remote add origin git@gitlab.wiedii.co:namespace/project.git`|
+|**Creación y cambio a rama develop a partir de master** `git checkout -b develop master`|**Publicar ramas master y develop (solo perfil “Maintainer” en GitLab)** `git push -v --set-upstream origin master develop`|
+|**Integración con repositorio remoto VACÍO** `git remote add origin git@gitlab.wiedii.co:namespace/project.git`|-|
+|**Publicar ramas master y develop (solo perfil “Maintainer” en GitLab)** `git push -v --set-upstream origin master develop`|-|
+
